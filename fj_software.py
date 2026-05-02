@@ -153,10 +153,9 @@ class Servicio(EntidadSistema, ABC):
 # [MÉTODOS SOBRECARGADOS SIMULADOS] Python no soporta sobrecarga nativa,
 # pero se logra mediante parámetros opcionales, *args/**kwargs y validación interna.
 class ReservaSala(Servicio):
-    def __init__(self, codigo, nombre, precio_base, capacidad: int = 10):
-        super().__init__(codigo, nombre, precio_base)
+    def _init_(self, codigo, nombre, precio_base, capacidad: int = 10):
         self.capacidad = capacidad
-
+        super()._init_(codigo, nombre, precio_base)
     def calcular_costo(self, duracion_horas: float, impuesto: float = 0.0, descuento: float = 0.0, **kwargs) -> float:
         """Sobrecarga simulada: acepta impuestos, descuentos y kwargs adicionales."""
         try:
