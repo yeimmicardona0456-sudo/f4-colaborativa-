@@ -1,7 +1,7 @@
 # =============================================================================
 # SISTEMA INTEGRAL DE GESTIÓN DE CLIENTES, SERVICIOS Y RESERVAS (Software FJ)
 # Curso: Programación 213023 | Fase 4
-# Autor: [Tu Nombre] & [Nombre Compañera]
+# Autor: [Tu yeimmi cardona peña] & [paola reyes roa]
 # =============================================================================
 # GUÍA DE COLABORACIÓN PARA GITHUB:
 # 1. Crear rama principal: main
